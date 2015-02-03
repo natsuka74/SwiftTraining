@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D91A9671A807D3D0022CB0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91A9661A807D3D0022CB0C /* AppDelegate.swift */; };
+		1D91A9691A807D3D0022CB0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D91A9681A807D3D0022CB0C /* Images.xcassets */; };
+		1D91A96C1A807D3E0022CB0C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D91A96A1A807D3E0022CB0C /* MainMenu.xib */; };
+		1D91A9781A807D3E0022CB0C /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91A9771A807D3E0022CB0C /* HelloWorldTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D91A9721A807D3E0022CB0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D91A9591A807D3D0022CB0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D91A9601A807D3D0022CB0C;
+			remoteInfo = HelloWorld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D91A9611A807D3D0022CB0C /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D91A9651A807D3D0022CB0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D91A9661A807D3D0022CB0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D91A9681A807D3D0022CB0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D91A96B1A807D3E0022CB0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1D91A9711A807D3E0022CB0C /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D91A9761A807D3E0022CB0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D91A9771A807D3E0022CB0C /* HelloWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D91A95E1A807D3D0022CB0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D91A96E1A807D3E0022CB0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D91A9581A807D3D0022CB0C = {
+			isa = PBXGroup;
+			children = (
+				1D91A9631A807D3D0022CB0C /* HelloWorld */,
+				1D91A9741A807D3E0022CB0C /* HelloWorldTests */,
+				1D91A9621A807D3D0022CB0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D91A9621A807D3D0022CB0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D91A9611A807D3D0022CB0C /* HelloWorld.app */,
+				1D91A9711A807D3E0022CB0C /* HelloWorldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D91A9631A807D3D0022CB0C /* HelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				1D91A9661A807D3D0022CB0C /* AppDelegate.swift */,
+				1D91A9681A807D3D0022CB0C /* Images.xcassets */,
+				1D91A96A1A807D3E0022CB0C /* MainMenu.xib */,
+				1D91A9641A807D3D0022CB0C /* Supporting Files */,
+			);
+			path = HelloWorld;
+			sourceTree = "<group>";
+		};
+		1D91A9641A807D3D0022CB0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D91A9651A807D3D0022CB0C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D91A9741A807D3E0022CB0C /* HelloWorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D91A9771A807D3E0022CB0C /* HelloWorldTests.swift */,
+				1D91A9751A807D3E0022CB0C /* Supporting Files */,
+			);
+			path = HelloWorldTests;
+			sourceTree = "<group>";
+		};
+		1D91A9751A807D3E0022CB0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D91A9761A807D3E0022CB0C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D91A9601A807D3D0022CB0C /* HelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D91A97B1A807D3E0022CB0C /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildPhases = (
+				1D91A95D1A807D3D0022CB0C /* Sources */,
+				1D91A95E1A807D3D0022CB0C /* Frameworks */,
+				1D91A95F1A807D3D0022CB0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorld;
+			productName = HelloWorld;
+			productReference = 1D91A9611A807D3D0022CB0C /* HelloWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D91A9701A807D3E0022CB0C /* HelloWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D91A97E1A807D3E0022CB0C /* Build configuration list for PBXNativeTarget "HelloWorldTests" */;
+			buildPhases = (
+				1D91A96D1A807D3E0022CB0C /* Sources */,
+				1D91A96E1A807D3E0022CB0C /* Frameworks */,
+				1D91A96F1A807D3E0022CB0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D91A9731A807D3E0022CB0C /* PBXTargetDependency */,
+			);
+			name = HelloWorldTests;
+			productName = HelloWorldTests;
+			productReference = 1D91A9711A807D3E0022CB0C /* HelloWorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D91A9591A807D3D0022CB0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Sumi Natsuka";
+				TargetAttributes = {
+					1D91A9601A807D3D0022CB0C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					1D91A9701A807D3E0022CB0C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 1D91A9601A807D3D0022CB0C;
+					};
+				};
+			};
+			buildConfigurationList = 1D91A95C1A807D3D0022CB0C /* Build configuration list for PBXProject "HelloWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D91A9581A807D3D0022CB0C;
+			productRefGroup = 1D91A9621A807D3D0022CB0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D91A9601A807D3D0022CB0C /* HelloWorld */,
+				1D91A9701A807D3E0022CB0C /* HelloWorldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D91A95F1A807D3D0022CB0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D91A9691A807D3D0022CB0C /* Images.xcassets in Resources */,
+				1D91A96C1A807D3E0022CB0C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D91A96F1A807D3E0022CB0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D91A95D1A807D3D0022CB0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D91A9671A807D3D0022CB0C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D91A96D1A807D3E0022CB0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D91A9781A807D3E0022CB0C /* HelloWorldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D91A9731A807D3E0022CB0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D91A9601A807D3D0022CB0C /* HelloWorld */;
+			targetProxy = 1D91A9721A807D3E0022CB0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D91A96A1A807D3E0022CB0C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D91A96B1A807D3E0022CB0C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D91A9791A807D3E0022CB0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D91A97A1A807D3E0022CB0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1D91A97C1A807D3E0022CB0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HelloWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1D91A97D1A807D3E0022CB0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HelloWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1D91A97F1A807D3E0022CB0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/Contents/MacOS/HelloWorld";
+			};
+			name = Debug;
+		};
+		1D91A9801A807D3E0022CB0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/Contents/MacOS/HelloWorld";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D91A95C1A807D3D0022CB0C /* Build configuration list for PBXProject "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D91A9791A807D3E0022CB0C /* Debug */,
+				1D91A97A1A807D3E0022CB0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D91A97B1A807D3E0022CB0C /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D91A97C1A807D3E0022CB0C /* Debug */,
+				1D91A97D1A807D3E0022CB0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D91A97E1A807D3E0022CB0C /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D91A97F1A807D3E0022CB0C /* Debug */,
+				1D91A9801A807D3E0022CB0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D91A9591A807D3D0022CB0C /* Project object */;
+}
